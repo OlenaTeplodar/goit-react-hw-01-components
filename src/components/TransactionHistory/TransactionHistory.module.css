@@ -1,0 +1,30 @@
+.transactionHistory {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+th {
+  width: 338px;
+  height: 56px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td {
+  text-align: center;
+  height: 30px;
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
