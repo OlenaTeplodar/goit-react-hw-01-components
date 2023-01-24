@@ -5,6 +5,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
+  background-color: rgb(168, 250, 209);
 }
 .title {
   font-size: 25px;
@@ -34,12 +35,13 @@
 }
 
 .label:not(:last-child) {
-  border-right: solid 1px rgb(205, 252, 186);
+  border-right: dotted 1px rgb(205, 252, 186);
 }
 
 .percentage {
   font-size: 32px;
   color: rgb(31, 29, 29);
+  border-right: dotted 1px rgb(205, 252, 186);
 }
 
 .percentage:not(:last-child) {

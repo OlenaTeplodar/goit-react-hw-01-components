@@ -1,5 +1,5 @@
 .transactionHistory {
-  max-width: 800px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -10,21 +10,20 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgb(192, 190, 190);
 }
 th {
-  width: 338px;
+  width: 238px;
   height: 56px;
-  background-color: darkcyan;
+  background-color: rgb(218, 144, 252);
   color: white;
-  font-size: 25px;
-  font-weight: 700;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Geneva, Verdana, sans-serif;
 }
 td {
   text-align: center;
   height: 30px;
-  color: gray;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(66, 66, 66);
+  font-family: Geneva, Verdana, sans-serif;
 }
